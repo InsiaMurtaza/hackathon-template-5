@@ -31,7 +31,7 @@ function home() {
     </div>
     <div className='flex w-[1440px] bg-footercolor'>
     <div className='flex-col w-[1050px] h-[62px] text-center items-center mt-10 mb-10'>
-    <text className='text-2xl text-navbarcolor text-center mt-5 mb-5 font-bold ml-48'>Editor's pick</text>
+    <text className='text-2xl text-navbarcolor text-center mt-5 mb-5 font-bold ml-48'>Editor&apos;s pick</text>
     <p className='text-sm text-linkcolor text-center mt-5 ml-48'>Problems trying to resolve the conflict between </p>
     </div>
     </div>

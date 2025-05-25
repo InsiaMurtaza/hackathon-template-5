@@ -5,7 +5,7 @@ import Image1 from "../../../public/desktopblogimage1.png"
 import Image2 from "../../../public/desktopblogimage2.png"
 import Image3 from "../../../public/desktopblogimage3.png"
 import { AreaChartOutlined } from '@ant-design/icons';
-import { BiAbacus, BiAlarm } from 'react-icons/bi'
+import { BiAlarm } from 'react-icons/bi'
 import { IoIosArrowForward } from "react-icons/io";
 import Link from 'next/link'
 
@@ -34,10 +34,10 @@ function Desktopblog() {
     <text className='text-xs text-linkcolor'>Trending</text>
     <text className='text-xs text-linkcolor'>New</text>
     </div>
-    <h4 className='text-xl text-navbarcolor text-wrap'>Loudest à la Madison #1 
-    (L'integral)</h4>
+    <h4 className='text-xl text-navbarcolor text-wrap'>Loudest a la Madison #1 
+    (L&apos;integral)</h4>
     <p className='text-sm text-linkcolor'>
-    We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+    We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.
     </p>
     <div className='flex justify-between w-[298px] h-[46px] pt-4 pb-4'>
     <div className='flex w-[98px] h-4 space-x-1'>
@@ -67,10 +67,10 @@ function Desktopblog() {
     <text className='text-xs text-linkcolor'>Trending</text>
     <text className='text-xs text-linkcolor'>New</text>
     </div>
-    <h4 className='text-xl text-navbarcolor text-wrap'>Loudest à la Madison #1 
-    (L'integral)</h4>
+    <h4 className='text-xl text-navbarcolor text-wrap'>Loudest a la Madison #1 
+    (L&apos;integral)</h4>
     <p className='text-sm text-linkcolor'>
-    We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+    We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.
     </p>
     <div className='flex justify-between w-[298px] h-[46px] pt-4 pb-4'>
     <div className='flex w-[98px] h-4 space-x-1'>
@@ -99,10 +99,10 @@ function Desktopblog() {
     <text className='text-xs text-linkcolor'>Trending</text>
     <text className='text-xs text-linkcolor'>New</text>
     </div>
-    <h4 className='text-xl text-navbarcolor text-wrap'>Loudest à la Madison #1 
-    (L'integral)</h4>
+    <h4 className='text-xl text-navbarcolor text-wrap'>Loudest a la Madison #1 
+    (L&apos;integral)</h4>
     <p className='text-sm text-linkcolor'>
-    We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+    We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.
     </p>
     <div className='flex justify-between w-[298px] h-[46px] pt-4 pb-4'>
     <div className='flex w-[98px] h-4 space-x-1'>

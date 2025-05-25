@@ -22,7 +22,7 @@ function contact() {
     <h4 className='text-xl text-linkcolor'>We know how large objects will act, 
     but things on a small scale</h4>
     <text className='text-2xl text-navbarcolor font-bold mt-12'>Fax : +451 215 215</text>
-    <text className='text-2xl text-navbarcolor font-bold mt-8'>Phone ; +451 215 215 </text>
+    <text className='text-2xl text-navbarcolor font-bold mt-8'>Phone : +451 215 215 </text>
     </div>
 
     <div className='relative flex-col justify-center items-center w-[632px] h-[612px] mt-28'>
@@ -79,8 +79,8 @@ function contact() {
     <div className='flex-col justify-center items-center w-[1050px] h-[360px] mt-10 mb-24 ml-48 space-y-4'>  
     <PiArrowBendRightDown className='w-[200px] h-[100px] ml-96 text-customecolor'/>  
     <div className='flex-col justify-center items-center w-[607px] h-[188px] ml-48 space-y-9'>
-    <h6 className='text-[16px] text-navbarcolor text-center font-bold'>WE Can't WAIT TO MEET YOU</h6>
-    <h2 className='text-[58px] text-navbarcolor text-center font-bold'>Let’s Talk</h2>
+    <h6 className='text-[16px] text-navbarcolor text-center font-bold'>WE Can&apos;t WAIT TO MEET YOU</h6>
+    <h2 className='text-[58px] text-navbarcolor text-center font-bold'>Let&apos;s Talk</h2>
     <button className='w-[186px] h-[52px] rounded-md pt-4 pb-4 pr-10 pl-10 ml-[216px] bg-customecolor text-sm text-footercolumncolor text-center font-bold tracking-tighter'>Try it free now</button>  
     </div>
     </div>

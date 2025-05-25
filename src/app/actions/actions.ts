@@ -1,4 +1,3 @@
-import { product } from "@/sanity/schemaTypes/product";
 import { Product } from "../types/products";
 
 
@@ -14,7 +13,7 @@ export const addToCart = (product:Product) => {
     localStorage.setItem('cart',JSON.stringify(cart))
 }
 export const removeFromCart =(product:Product) => {
-let cart:Product[] = JSON.parse(localStorage.getItem('cart') || '[]')
+const cart:Product[] = JSON.parse(localStorage.getItem('cart') || '[]')
 const existingProductIndex = cart.findIndex(item => item._id === product._id)
 cart.filter(item => item._id !== product._id)
 if(existingProductIndex > 1){

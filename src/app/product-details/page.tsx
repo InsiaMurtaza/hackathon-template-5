@@ -36,7 +36,7 @@ const roboto = Roboto({
   weight: ["400"],
   subsets:["latin"],
 });
-function productlist() {
+function Productlist() {
   const [showMenu,setShowMenu] = useState(false);
   return (
     <>
@@ -315,4 +315,4 @@ function productlist() {
   )
 }
 
-export default productlist
+export default Productlist

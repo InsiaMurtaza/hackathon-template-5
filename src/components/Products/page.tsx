@@ -6,7 +6,7 @@ import { client } from '@/sanity/lib/client';
 import { allProducts } from '@/sanity/lib/queries';
 import { urlFor } from '@/sanity/lib/image';
 import Link from 'next/link';
-import { addToCart, removeFromCart } from '@/app/actions/actions';
+import { addToCart} from '@/app/actions/actions';
 import Swal from 'sweetalert2';
 
 

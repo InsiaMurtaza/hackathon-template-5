@@ -10,7 +10,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 
-function checkout() {
+function Checkout() {
 const [cartItems,setCartItems] = useState<Product[]>([]);
 const [formValues,setFormValues] = useState({
     name:"",
@@ -160,4 +160,4 @@ const handlePlaceOrder= async()=>{
   ) 
 }
 
-export default checkout
+export default Checkout

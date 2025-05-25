@@ -1,4 +1,3 @@
-import { TbBrandProducthunt } from "react-icons/tb";
 import { defineType } from "sanity"
 
 export const product = defineType({

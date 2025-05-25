@@ -14,7 +14,7 @@ import FaBrands6 from "../../../public/fa-brands-6.png"
 import Footer from '@/components/Footer'
 
 
-function pricing() {
+function Pricing() {
   const [showMenu1,setShowMenu1] = useState(false);
   const [showMenu2,setShowMenu2] = useState(false);
   const [showMenu3,setShowMenu3] = useState(false);
@@ -268,7 +268,7 @@ function pricing() {
 
     </div>
 
-    <p className='text-xl text-linkcolor text-center'>Haven’t got your answer? Contact our support</p>
+    <p className='text-xl text-linkcolor text-center'>Haven&apos;t got your answer? Contact our support</p>
     
     </div>  
     </div>
@@ -295,4 +295,4 @@ function pricing() {
   )
 }
 
-export default pricing
+export default Pricing

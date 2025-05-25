@@ -29,7 +29,7 @@ import FaBrands6 from "../../../public/fa-brands-6.png"
 import Footer from '@/components/Footer'
 
 
-function product() {
+function Product() {
   const [isFirstImage, setIsFirstImage] = useState(true);
 
   return (
@@ -315,4 +315,4 @@ function product() {
   )
 }
 
-export default product
+export default Product
