@@ -10,7 +10,7 @@ import Swal from 'sweetalert2';
 import Link from "next/link";
 
 interface ProductPageProps {
-    params:Promise<{slug:string}>
+    params: { slug: string };
 }
 async function getProduct(slug:string):Promise<Product>{
     return client.fetch(groq`*[_type== "product" && slug.current== $slug][0]{
@@ -25,7 +25,7 @@ async function getProduct(slug:string):Promise<Product>{
 }
 
 export default async function ProductPage({params}:ProductPageProps){
-const {slug} = await params;
+const { slug } = params;
 const product:Product = await getProduct(slug)
 const handleaddToCart = (e:React.MouseEvent,product:Product) => {
   e.preventDefault()
