@@ -1,4 +1,5 @@
-export default {
+
+export const order = {
 name:"order",
 type:"document",
 title:"Order",
@@ -15,7 +16,7 @@ fields:[
     },
     {
         name:"phone",
-        type:"number",
+        type:"string",
         title:"Phone"
     },
     {

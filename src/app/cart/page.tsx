@@ -63,8 +63,9 @@ const handleProceed=()=>{
       Swal.fire("Congratulations!Your order has been successfully processed.");
       router.push("/checkout");
       setCartItems([]);
-      localStorage.setItem('cart','[]');
+      // localStorage.setItem('cart','[]');
       calculateTotal();
+      
      };
   });
 };

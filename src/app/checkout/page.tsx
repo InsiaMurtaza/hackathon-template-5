@@ -8,6 +8,7 @@ import Image from 'next/image';
 import { urlFor } from '@/sanity/lib/image';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { v4 as uuidv4 } from 'uuid';
 
 
 function Checkout() {
@@ -62,6 +63,7 @@ const handlePlaceOrder= async()=>{
         if(result.isConfirmed){
             if(validateForm()){
                 // localStorage.removeItem('cartItems');
+                localStorage.setItem('cart','[]');
             Swal.fire("Your Order has been successfully processed!")
               }  
             else{
@@ -79,8 +81,9 @@ const handlePlaceOrder= async()=>{
    address:formValues.address,
    city:formValues.city,
    cartItems:cartItems.map(item=>({
-    type:"reference",
-    ref:item._id
+    _type:"reference",
+    _ref:item._id,
+    _key: uuidv4()
    })),
    total:total,
    date:new Date().toISOString
